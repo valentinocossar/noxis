@@ -1,0 +1,63 @@
+{
+  "name": "noxis",
+  "displayName": "Noxis",
+  "publisher": "valentinocossar",
+  "description": "The night theme for Visual Studio Code that lights up your code.",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "author": "Valentino Cossar [@valentinocossar]",
+  "icon": "logo.png",
+  "galleryBanner": {
+    "color": "#090A0F",
+    "theme": "dark"
+  },
+  "homepage": "https://github.com/valentinocossar/noxis",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/valentinocossar/noxis.git"
+  },
+  "bugs": {
+    "url": "https://github.com/valentinocossar/noxis/issues"
+  },
+  "scripts": {
+    "build": "vsce package"
+  },
+  "engines": {
+    "vscode": "^1.98.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "VSCode",
+    "Themes",
+    "noxis",
+    "theme",
+    "valentinocossar"
+  ],
+  "extensionKind": [
+    "ui"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Noxis",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Noxis-color-theme.json"
+      },
+      {
+        "label": "Noxis Borderline",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Noxis-Borderline-color-theme.json"
+      },
+      {
+        "label": "Noxis Light",
+        "uiTheme": "vs",
+        "path": "./themes/Noxis-Light-color-theme.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.2.2"
+  }
+}
