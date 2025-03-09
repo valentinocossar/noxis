@@ -28,7 +28,7 @@ The night theme for Visual Studio Code that lights up your code.
 
 #### Visual Studio Code Marketplace
 
-The simplest way to install this theme is through the [Visual Studio Code Marketplace](#). Click the link and follow the installation instructions provided.
+The simplest way to install this theme is through the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=valentinocossar.noxis). Click the link and follow the installation instructions provided.
 
 #### Manual
 
