@@ -3,7 +3,7 @@
   "displayName": "Noxis",
   "publisher": "valentinocossar",
   "description": "The night theme for Visual Studio Code that lights up your code.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "Apache-2.0",
   "author": "Valentino Cossar [@valentinocossar]",
   "icon": "logo.png",
@@ -54,6 +54,11 @@
         "label": "Noxis Light",
         "uiTheme": "vs",
         "path": "./themes/Noxis-Light-color-theme.json"
+      },
+      {
+        "label": "Noxis Light Plus",
+        "uiTheme": "vs",
+        "path": "./themes/Noxis-Light-Plus-color-theme.json"
       }
     ]
   },
